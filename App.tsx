@@ -3,10 +3,14 @@ import { Text, View } from "react-native";
 export default function App() {
   return (
     <View>
-      <Text>
+      <Text
+        key="1"
+      >
         React Native
       </Text>
-      <Text>
+      <Text
+        key="1"
+      >
         Rocketseat
       </Text>
     </View>
